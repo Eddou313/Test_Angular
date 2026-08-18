@@ -12,4 +12,8 @@ export class App {
   protected readonly title = signal('Test_Angular');
   prenom: string = 'John';
   monAppareil : string = 'Telephones';
+
+  recoitProduit(produit:string){
+    alert('Vous avez sélectionné : ' + produit);
+  }
 }
