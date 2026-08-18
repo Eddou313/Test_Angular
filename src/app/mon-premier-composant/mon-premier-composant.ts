@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-mon-premier-composant',
@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './mon-premier-composant.html',
   styleUrl: './mon-premier-composant.css',
 })
-export class MonPremierComposant {}
+export class MonPremierComposant 
+{
+  @Input() NomProduit:string = '';
+}
