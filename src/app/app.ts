@@ -11,4 +11,5 @@ import { MonPremierComposant } from './mon-premier-composant/mon-premier-composa
 export class App {
   protected readonly title = signal('Test_Angular');
   prenom: string = 'John';
+  monAppareil : string = 'Telephones';
 }
